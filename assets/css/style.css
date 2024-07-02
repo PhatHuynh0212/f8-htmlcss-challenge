@@ -668,3 +668,53 @@ header .action .btn-sign-up:hover {
     font-size: 1.8rem;
     line-height: normal;
 }
+
+/* Footer */
+
+footer {
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+footer .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .title {
+    display: flex;
+    align-items: center;
+    height: 37px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer .list li a {
+    color: #535353;
+    line-height: normal;
+}
+
+footer .list:not(footer .list.social) {
+    padding-top: 8px;
+}
+
+footer .column li {
+    padding-top: 18px;
+}
+
+footer .list.social li {
+    display: flex;
+    gap: 9px;
+}
+
+footer .copyright {
+    display: block;
+    padding-top: 80px;
+    text-align: center;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    line-height: normal;
+}
